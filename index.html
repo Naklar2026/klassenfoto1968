@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Klassenfoto 1968/69</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="page">
+
+    <header class="hero">
+
+      <div class="hero-text">
+
+        <h1>Erinnerungen an unsere gemeinsame Schulzeit</h1>
+
+        <p>
+          Dieses Klassenfoto stammt aus den späten 1960er Jahren.
+          Viele Namen und Lebenswege sind im Laufe der Jahrzehnte verblasst.
+        </p>
+
+        <p>
+          Diese kleine Seite soll helfen, unsere Erinnerungen wieder zusammenzutragen.
+          Klicke auf die Personen im Bild oder ergänze Informationen in der Tabelle.
+        </p>
+
+        <p>
+          Unbekannte Personen sind bewusst markiert geblieben —
+          vielleicht hilft gerade das unserer Erinnerung wieder auf die Sprünge.
+        </p>
+
+      </div>
+
+      <a class="sheet-link"
+   target="_blank"
+   href="https://docs.google.com/spreadsheets/d/1PODi6JovEguqAWrEb7gD1n-odOZG9mfPzdc2uMHTLX4/edit?gid=0#gid=0">
+        Tabelle öffnen
+      </a>
+
+    </header>
+
+
+    <section class="photo-card">
+
+      <div class="photo-wrap" id="photoWrap">
+
+        <img
+          src="klassenfoto.jpg"
+          alt="Klassenfoto 1968/69"
+          id="classPhoto">
+
+        <div
+          id="markers"
+          class="markers"
+          aria-label="Personenmarkierungen">
+        </div>
+
+      </div>
+
+      <p class="hint">
+        Die Nummern sind bewusst direkt auf die Köpfe gesetzt.
+        Falls einzelne Positionen noch minimal verrutschen,
+        können die Werte in <strong>script.js</strong> angepasst werden.
+      </p>
+
+    </section>
+
+
+    <section class="table-card" id="tabelle">
+
+      <h2>Personenliste</h2>
+
+      <p class="small">
+        Die Tabelle dient zunächst als lokale Übersicht.
+        Später kann zusätzlich eine gemeinsame Google-Tabelle eingebunden werden.
+      </p>
+
+      <div class="table-wrap">
+
+        <table>
+
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name damals</th>
+              <th>Name heute</th>
+              <th>Wohnort</th>
+              <th>Was aus ihr / ihm geworden ist</th>
+              <th>Erinnerungen</th>
+            </tr>
+          </thead>
+
+          <tbody id="peopleTable">
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
